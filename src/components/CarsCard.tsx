@@ -10,7 +10,7 @@ export const CarsCard = ({ carItems }:{carItems:CarModels}) => {
       key={carItems.id}
     >
       <div className="px-16 pt-16">
-      <p className="font-14 font-medium text-secondary">
+      <p className="font-14 font-medium  text-secondary">
         {upperCase(carItems.bodyType)}
       </p>
       <div className="flex-col md:flex-row md:gap-8">

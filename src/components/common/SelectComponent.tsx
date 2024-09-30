@@ -3,7 +3,7 @@ import React from "react";
 
 type SelectComponentProps = {
   handleChangeFilter: (params: string) => void;
-  optionsList: [{ id: string; value: string }];
+  optionsList: { id: string; value: string }[];
 };
 
 const SelectComponent = ({

@@ -25,6 +25,7 @@ export const CarsList = ({ response }: { response: ResponseData }) => {
       </div>
       <ReelsComponent>
         {cars?.map((car: CarModels) => (
+          // eslint-disable-next-line react/jsx-key
           <CarsCard carItems={car} />
         ))}
       </ReelsComponent>
